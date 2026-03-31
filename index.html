@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>권민우 | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 네비게이션 -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-identity">
+        <span class="nav-name">권민우</span>
+        <span class="nav-role">Web Developer</span>
+      </div>
+      <button class="nav-copy-btn" onclick="copyURL()">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        URL 복사
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- 프로필 -->
+    <section class="profile-section">
+      <div class="profile-deco deco-1"></div>
+      <div class="profile-deco deco-2"></div>
+      <div class="profile-avatar">
+        <div class="avatar-img">
+          <img src="profile.png" alt="권민우 프로필 사진" />
+        </div>
+      </div>
+      <h1 class="profile-name">권민우</h1>
+      <p class="profile-role-text">Web Developer</p>
+      <hr class="profile-divider" />
+      <p class="profile-contact">
+        <a href="mailto:saga6442@gmail.com">saga6442@gmail.com</a>
+        <span class="dot-sep">·</span>
+        <a href="https://www.instagram.com/m2n._.woo/" target="_blank" rel="noopener">@m2n._.woo</a>
+      </p>
+    </section>
+
+    <!-- 자기소개 -->
+    <section class="about-section fade-in">
+      <p class="about-text">
+        안녕하세요 :) 동양미래대학교 웹응용소프트웨어공학과 1학년으로 재학중인 권민우라고합니다.<br />
+        코딩을 좋아하는 만큼 노력뿐만이 아니라 실천으로 옮기면서 성장해가고 있습니다.
+      </p>
+    </section>
+
+    <hr class="section-divider fade-in" />
+
+    <!-- 기술 스택 -->
+    <section class="specialty-section fade-in">
+      <h2 class="section-heading">Specialty</h2>
+      <div class="specialty-row">
+        <span class="spec-label">Skill</span>
+        <div class="skill-tags">
+          <span class="tag tag-primary">Python</span>
+          <span class="tag tag-primary">Dart</span>
+          <span class="tag tag-primary">AWS</span>
+          <span class="tag tag-outline">C</span>
+          <span class="tag tag-outline">MongoDB</span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider fade-in" />
+
+    <!-- 학력 -->
+    <section class="education-section fade-in">
+      <h2 class="section-heading">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2023.03 ~ 2026.02</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">세명컴퓨터고등학교</h3>
+            <p class="tl-sub">디바이스소프트웨어과</p>
+            <ul class="tl-list">
+              <li><span class="tl-year">2024</span> 학급 부회장</li>
+              <li><span class="tl-year">2025</span> 공업전자기기 전공심화동아리 회장</li>
+              <li><span class="tl-year">2026</span> 졸업</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot tl-dot-active"></span>
+            <span class="tl-date tl-date-active">2026.03 ~ 재학 중</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">동양미래대학교</h3>
+            <p class="tl-sub">웹응용소프트웨어공학과</p>
+            <ul class="tl-list">
+              <li><span class="tl-year">2026</span> MARS 동아리</li>
+              <li><span class="tl-year current">재학 중</span> 1학년</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="section-divider fade-in" />
+
+    <!-- 수상 -->
+    <section class="awards-section fade-in">
+      <h2 class="section-heading">Activity</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2023.12.28</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">표창장</h3>
+            <p class="tl-sub">세명컴퓨터고등학교</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2024.01.03</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">선행상</h3>
+            <p class="tl-sub">세명컴퓨터고등학교</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2024.11.29</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">2024 청소년 미래상상 교내기능대회</h3>
+            <p class="tl-sub">동상</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2024.12.24</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">표창장</h3>
+            <p class="tl-sub">세명컴퓨터고등학교</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2025.01.10</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">선행상</h3>
+            <p class="tl-sub">세명컴퓨터고등학교</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2025</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">지방경기기능대회</h3>
+            <p class="tl-sub">공업전자기기 분야 · 동상</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot"></span>
+            <div class="tl-line"></div>
+            <span class="tl-date">2026.01.12</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">선행상</h3>
+            <p class="tl-sub">세명컴퓨터고등학교</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-left">
+            <span class="tl-dot tl-dot-active"></span>
+            <span class="tl-date tl-date-active">2026.01.13</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="tl-title">노력상</h3>
+            <p class="tl-sub">세명컴퓨터고등학교</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="section-divider fade-in" />
+
+    <!-- 프로젝트 -->
+    <section class="projects-section fade-in">
+      <h2 class="section-heading">Project</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-type app">App</span>
+          </div>
+          <h3 class="project-title">오늘 날씨 어때</h3>
+          <p class="project-desc">날씨 정보를 제공하는 모바일 애플리케이션</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-type app">App</span>
+          </div>
+          <h3 class="project-title">오늘의 할일</h3>
+          <p class="project-desc">일정 및 할 일을 관리하는 모바일 애플리케이션</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-type web">Web</span>
+          </div>
+          <h3 class="project-title">민우네 자전거</h3>
+          <p class="project-desc">자전거 관련 서비스 웹 프로젝트</p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-type web">Web</span>
+          </div>
+          <h3 class="project-title">매출관리시스템</h3>
+          <p class="project-desc">매출 데이터를 관리하고 분석하는 웹 시스템</p>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="section-divider fade-in" />
+
+    <!-- 연락처 URL -->
+    <section class="url-section fade-in">
+      <h2 class="section-heading">URL</h2>
+      <div class="url-list">
+        <a href="mailto:saga6442@gmail.com" class="url-card">
+          <svg class="url-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <span class="url-text">mailto:saga6442@gmail.com</span>
+          <svg class="url-ext" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+        <a href="https://www.instagram.com/m2n._.woo/" target="_blank" rel="noopener" class="url-card">
+          <svg class="url-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <span class="url-text">https://www.instagram.com/m2n._.woo/</span>
+          <svg class="url-ext" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 푸터 -->
+  <footer>
+    <p>© 2026 권민우</p>
+  </footer>
+
+  <!-- 복사 완료 토스트 -->
+  <div id="toast" class="toast">URL이 복사되었습니다 ✓</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
